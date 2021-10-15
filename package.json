@@ -26,6 +26,7 @@
     "test:watch": "mocha -w test/*.test.js --recursive"
   },
   "dependencies": {
+    "aws-sdk": "^2.1008.0",
     "body-parser": "^1.17.2",
     "cli-table": "^0.3.1",
     "commander": "^2.11.0",
@@ -39,6 +40,8 @@
     "node-fetch": "^2.6.1",
     "pg": "^7.4.0",
     "prompt": "^1.0.0",
+    "puppeteer": "^10.4.0",
+    "puppeteer-core": "^10.4.0",
     "s3": "^4.4.0",
     "uuid": "^3.1.0"
   },
